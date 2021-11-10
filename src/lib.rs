@@ -81,5 +81,6 @@ pub fn init() {
                 Shim(backtrace)
             ),
         }
+        log::logger().flush();
     }));
 }
